@@ -1,0 +1,95 @@
+* {
+	transition: 1s;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.conteiner-for-main {
+	width: 95%;
+	position: relative;
+	margin: 0 auto;
+}
+.box-for-text {
+	margin-top: 2pc;
+	text-align: center;
+}
+.text-min {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: larger;
+	margin: 0;
+	text-shadow: 1px 1px 1px rgb(100, 100, 100), 2px 2px 4px rgb(134, 134, 134);
+}
+.text-big {
+	font-family: "Nike Futura ND", "Helvetica Now Text Medium", Helvetica, Arial,
+		sans-serif;
+	font-weight: bolder;
+	font-optical-sizing: auto;
+	font-variant-alternates: normal;
+	font-stretch: 100%;
+	font-size-adjust: none;
+	font-size: clamp(3rem, 7vw, 5rem);
+	letter-spacing: -0.2pc;
+	font-language-override: normal;
+	font-feature-settings: normal;
+	margin: 0;
+	text-transform: uppercase;
+	color: rgb(17, 17, 17);
+	text-shadow: 3px 3px 1px rgb(100, 100, 100), 6px 6px 8px rgb(197, 197, 197);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: black;
+}
+.many-text {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: clamp(1rem, 2vw, 1.5rem);
+	font-weight: 400;
+	text-shadow: 0.2px 0.2px 0.1px rgb(100, 100, 100),
+		1px 1px 2px rgb(134, 134, 134);
+	line-height: 1.5;
+	color: #121212;
+}
+.link_shop {
+	width: 120px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	position: relative;
+	left: 50%;
+	margin-top: 3pc;
+	transform: translate(-50%);
+	height: 30px;
+	display: flex;
+	background-color: black;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+
+@media (max-width: 600px) {
+	.box-for-text {
+		text-align: start;
+	}
+	.link_shop {
+		left: auto;
+		transform: translate(0);
+	}
+	.text-big {
+		text-shadow: 1px 1px 0.1px black;
+	}
+	.text-min {
+		margin: 0.5pc;
+	}
+}
+
+.box-for-pictures {
+	width: 100%;
+	margin-top: 6pc;
+}
+.box_objekt {
+	display: flex;
+	overflow-x: scroll;
+	overflow-y: hidden;
+}
+.box_objekt_img_text {
+	width: 50%;
+	margin: 5px;
+}
+.box_objekt_img__img {
+	width: 100%;
+}
